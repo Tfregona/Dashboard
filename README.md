@@ -1,14 +1,31 @@
 # Dashboard
 
 ## Project setup
+
 ```
 npm install
 ```
 
-### Run the web app 
+### Environment variables
+
+Connect your app for each API and replace the
+
+```
+.env.example
+```
+
+by
+
+```
+.env
+```
+
+### Run the web app
+
 ```
 npm run start
 ```
+
 ## Web App Preview
 
 ### Home page
