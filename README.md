@@ -8,13 +8,7 @@ npm install
 
 ### Environment variables
 
-Connect your app for each API and replace the
-
-`.env.example`
-
-by
-
-`.env`
+Connect your app for each API and replace the `.env.example` by `.env`
 
 ### Run the web app
 
