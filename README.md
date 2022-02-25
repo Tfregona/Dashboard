@@ -1,4 +1,4 @@
-# Post_It
+# Dashboard
 
 ## Project setup
 ```
