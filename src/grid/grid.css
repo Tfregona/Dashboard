@@ -1,0 +1,236 @@
+.input {
+  padding: 10px;
+  width: 80%;
+}
+.row div {
+  border-radius: 5px;
+  margin: 5px 0;
+}
+body {
+  font-family: "montserat", sans-serif;
+}
+
+/* Weather */
+.Weather {
+  background-color: aquamarine;
+  background-size: cover;
+  background-position: bottom;
+  transition: 0.4 ease;
+}
+.Weather.warm {
+  background-color: gold;
+}
+main {
+  background-image: linear-gradient(
+    to bottom,
+    rgba(0, 0, 0, 0.2),
+    rgba(0, 0, 0, 0.75)
+  );
+  padding: 0 25px 25px 25px;
+  border-radius: 5px;
+}
+.search-box {
+  width: 100%;
+  margin: 0 0 75px;
+}
+.search-box .search-bar {
+  display: block;
+  width: 100%;
+  padding: 15%;
+
+  appearance: none;
+  background: none;
+  border: none;
+  outline: none;
+
+  background-color: rgba(255, 255, 255, 0.5);
+  border-radius: 0px 0px 16px 16px;
+
+  box-shadow: 0px 5px rgba(0, 0, 0, 0.2);
+
+  color: #313131;
+  font-size: 20px;
+
+  transition: 0.4 ease;
+}
+.search-box .search-bar:focus {
+  background-color: rgba(255, 255, 255, 0.75);
+}
+.location-box .location {
+  color: #fff;
+  font-size: 32px;
+  font-weight: 500;
+  text-align: center;
+  text-shadow: 3px 3px rgba(50, 50, 70, 0.5);
+}
+.location-box .date {
+  color: #fff;
+  font: size 20px;
+  font-weight: 300;
+  font-style: italic;
+  text-align: center;
+  text-shadow: 2px 2px rgba(50, 50, 70, 0.5);
+}
+.weather-box {
+  text-align: center;
+}
+.weather-box .temp {
+  width: 100%;
+  position: relative;
+  display: inline-block;
+  margin: 30px auto;
+  background-color: rgba(255, 255, 255, 0.2);
+  border-radius: 16px;
+
+  padding: 15px 25px;
+
+  color: #fff;
+  font-size: 50px;
+  font-weight: 900;
+
+  text-shadow: 3px 6px rgba(50, 50, 70, 0.5);
+  text-align: center;
+  box-shadow: 3px 6px rgba(0, 0, 0, 0.2);
+}
+.weather-box .weather {
+  color: #fff;
+  font-size: 48px;
+  font-weight: 700;
+  text-shadow: 3px 3px rgba(50, 50, 70, 0.5);
+}
+.app__searchForm {
+  margin: top 18px;
+}
+.app__input {
+  padding: 6px 16px;
+  min-width: 200px;
+  max-width: 100vw;
+  font-size: 15px;
+}
+.app__submit {
+  padding: 6px 16px;
+  font-size: 15px;
+  margin-left: 6px;
+  background-color: rgb(102, 238, 11);
+  text-shadow: 2px solid rgb(7, 17, 1);
+  border-radius: 4px;
+  color: black;
+  cursor: pointer;
+}
+.app__submit:hover {
+  padding: 6px 16px;
+  font-size: 15px;
+  margin-left: 6px;
+  background-color: rgb(102, 238, 11);
+  text-shadow: 2px solid rgb(7, 17, 1);
+  border-radius: 4px;
+  color: red;
+  cursor: pointer;
+}
+
+.app_healthlabels {
+  padding: 7px 8px;
+  margin-left: 6px;
+  border: radius 4px;
+}
+
+/* SPOTIFY */
+#spotify {
+  background-color: rgb(2, 70, 2);
+  color: white;
+}
+#spotify button {
+  margin: 5px;
+}
+
+/* Food */
+.Food {
+  margin: 0px;
+  padding: 40px 24px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #0fa140;
+}
+.Food__recipes {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.Food__recipes div {
+  margin: 11px;
+}
+.recipeTile {
+  width: 23%;
+  cursor: pointer;
+}
+
+.recipeTile__img {
+  border-radius: 4px;
+}
+
+/* BrBa */
+.brba {
+  background-image: url("../images/bg.jpg");
+  color: white;
+  padding: 5px 25px;
+}
+
+/* Google */
+#googlelogin {
+  background-color: rgb(68, 68, 68);
+  color: white;
+}
+#googlelogin button {
+  margin: 5px;
+}
+
+/* Crypto */
+.coin-app {
+  background-color: #313131;
+  color: white;
+  padding: 10px;
+}
+.coin-container {
+  display: flex;
+}
+.coin-row {
+  width: 100%;
+}
+.coin-price {
+  width: 100%;
+  border-bottom: 1px solid #d7d7d7;
+  padding: 0 0 15px 0;
+  margin: 0;
+}
+
+.coin {
+  display: flex;
+  align-items: center;
+}
+
+.coin img {
+  height: 30px; 
+  width: 30px;
+  margin-right: 10px;
+}
+
+.coin-symbol {
+  margin: auto 5px;
+  text-transform: uppercase;
+}
+
+.red {
+  color: #f00606;
+}
+
+.green {
+  color: #11d811;
+}
+/* Flag */
+.flag {
+  background-color: beige;
+  padding: 15px;
+}
