@@ -10,15 +10,11 @@ npm install
 
 Connect your app for each API and replace the
 
-```
-.env.example
-```
+`.env.example`
 
 by
 
-```
-.env
-```
+`.env`
 
 ### Run the web app
 
